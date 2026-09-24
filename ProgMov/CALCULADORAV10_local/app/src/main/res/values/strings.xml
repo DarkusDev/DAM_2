@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculadora V.1.0</string>
+
+    <string name="titulo">CALCULADORA</string>
+    <string name="hint_operando1">Operando 1</string>
+    <string name="hint_operando2">Operando 2</string>
+    <string name="etiqueta_resultado">Resultado</string>
+    <string name="resultado_vacio">—</string>
+
+    <string name="btn_sumar">+</string>
+    <string name="btn_restar">-</string>
+    <string name="btn_multiplicar">x</string>
+    <string name="btn_dividir">/</string>
+
+    <string name="desc_sumar">Sumar</string>
+    <string name="desc_restar">Restar</string>
+    <string name="desc_multiplicar">Multiplicar</string>
+    <string name="desc_dividir">Dividir</string>
+
+    <string name="error_operandos">Introduce dos números válidos</string>
+    <string name="error_division_cero">No se puede dividir entre cero</string>
+</resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -7,28 +8,29 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
         android:gravity="center">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/titulo"
-            android:textSize="20sp"
+            android:text="CALCULADORA"
+            android:textSize="20dp"
             android:textStyle="bold"
-            android:textColor="@color/titulo" />
+            android:textColor="#FF0000"
+            />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:baselineAligned="false"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
         <LinearLayout
             android:layout_width="0dp"
@@ -36,45 +38,28 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center">
-
             <EditText
                 android:id="@+id/etOperando1"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:hint="@string/hint_operando1"
-                android:importantForAutofill="no"
-                android:inputType="numberDecimal|numberSigned" />
-
+                android:hint="Operando 1"
+                android:layout_margin="20dp"/>
             <EditText
                 android:id="@+id/etOperando2"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:hint="@string/hint_operando2"
-                android:importantForAutofill="no"
-                android:inputType="numberDecimal|numberSigned" />
-
-            <TextView
-                android:id="@+id/tvEtiquetaResultado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginTop="8dp"
-                android:labelFor="@id/tvResultado"
-                android:text="@string/etiqueta_resultado" />
+                android:hint="Operando 2"
+                android:layout_margin="20dp"/>
 
             <TextView
                 android:id="@+id/tvResultado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:text="@string/resultado_vacio"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:layout_width="95dp"
+                android:layout_height="39dp"
+                android:layout_margin="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:autoText="true"/>
+
         </LinearLayout>
 
         <LinearLayout
@@ -86,40 +71,38 @@
 
             <Button
                 android:id="@+id/btnSumar"
-                android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:contentDescription="@string/desc_sumar"
-                android:text="@string/btn_sumar" />
-
+                android:onClick="sumar"
+                android:text="+"
+                android:layout_margin="2dp"/>
             <Button
                 android:id="@+id/btnRestar"
-                android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:contentDescription="@string/desc_restar"
-                android:text="@string/btn_restar" />
+                android:onClick="restar"
+                android:text="-"
+                android:layout_margin="2dp"/>
 
             <Button
                 android:id="@+id/btnMultiplicar"
-                android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:contentDescription="@string/desc_multiplicar"
-                android:text="@string/btn_multiplicar" />
+                android:onClick="multiplicar"
+                android:text="x" />
 
             <Button
                 android:id="@+id/btnDividir"
-                android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:contentDescription="@string/desc_dividir"
-                android:text="@string/btn_dividir" />
+                android:onClick="dividir"
+                android:text="/" />
         </LinearLayout>
     </LinearLayout>
+
+    
+
 
 </LinearLayout>

@@ -1,13 +1,13 @@
 package com.example.calculadorav10;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
-import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -18,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
     private EditText etOperando1;
     private EditText etOperando2;
     private TextView tvResultado;
+    private Button btnSumar;
+    private Button btnRestar;
+    private Button btnMultiplicar;
+    private Button btnDividir;
+
+    private Double operando1, operando2, resultado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,90 +40,52 @@ public class MainActivity extends AppCompatActivity {
         etOperando2 = findViewById(R.id.etOperando2);
         tvResultado = findViewById(R.id.tvResultado);
 
-        Button btnSumar = findViewById(R.id.btnSumar);
-        Button btnRestar = findViewById(R.id.btnRestar);
-        Button btnMultiplicar = findViewById(R.id.btnMultiplicar);
-        Button btnDividir = findViewById(R.id.btnDividir);
+        btnSumar = findViewById(R.id.btnSumar);
+        btnRestar = findViewById(R.id.btnRestar);
+        btnMultiplicar = findViewById(R.id.btnMultiplicar);
+        btnDividir = findViewById(R.id.btnDividir);
 
-        btnSumar.setOnClickListener(v -> sumar());
-        btnRestar.setOnClickListener(v -> restar());
-        btnMultiplicar.setOnClickListener(v -> multiplicar());
-        btnDividir.setOnClickListener(v -> dividir());
     }
 
-    private void sumar() {
-        Double[] operandos = leerOperandos();
-        if (operandos == null) {
-            return;
-        }
-        mostrarResultado(operandos[0] + operandos[1]);
+    public void sumar(View view) {
+
+        operando1 = Double.parseDouble(etOperando1.getText().toString());
+        operando2 = Double.parseDouble(etOperando2.getText().toString());
+
+        resultado = operando1 + operando2;
+
+        tvResultado.setText(resultado.toString());
+
     }
 
-    private void restar() {
-        Double[] operandos = leerOperandos();
-        if (operandos == null) {
-            return;
-        }
-        mostrarResultado(operandos[0] - operandos[1]);
+    public void restar(View view) {
+        operando1 = Double.parseDouble(etOperando1.getText().toString());
+        operando2 = Double.parseDouble(etOperando2.getText().toString());
+
+        resultado = operando1 - operando2;
+        tvResultado.setText(resultado.toString());
     }
 
-    private void multiplicar() {
-        Double[] operandos = leerOperandos();
-        if (operandos == null) {
-            return;
-        }
-        mostrarResultado(operandos[0] * operandos[1]);
+    public void multiplicar(View view) {
+        operando1 = Double.parseDouble(etOperando1.getText().toString());
+        operando2 = Double.parseDouble(etOperando2.getText().toString());
+
+        resultado = operando1 * operando2;
+        tvResultado.setText(resultado.toString());
     }
 
-    private void dividir() {
-        Double[] operandos = leerOperandos();
-        if (operandos == null) {
-            return;
-        }
-        if (operandos[1] == 0) {
-            mostrarError(R.string.error_division_cero);
-            return;
-        }
-        mostrarResultado(operandos[0] / operandos[1]);
-    }
-
-    /**
-     * Devuelve los dos operandos, o null (avisando al usuario) si alguno no es un número válido.
-     */
-    private Double[] leerOperandos() {
-        Double operando1 = leerOperando(etOperando1);
-        Double operando2 = leerOperando(etOperando2);
-        if (operando1 == null || operando2 == null) {
-            mostrarError(R.string.error_operandos);
-            return null;
-        }
-        return new Double[]{operando1, operando2};
-    }
-
-    private Double leerOperando(EditText campo) {
-        // El teclado decimal usa la coma en español, pero parseDouble espera un punto.
-        String texto = campo.getText().toString().trim().replace(',', '.');
-        if (texto.isEmpty()) {
-            return null;
-        }
+    public void dividir(View view) {
         try {
-            return Double.parseDouble(texto);
-        } catch (NumberFormatException e) {
-            return null;
+            operando1 = Double.parseDouble(etOperando1.getText().toString());
+            operando2 = Double.parseDouble(etOperando2.getText().toString());
+            if (operando2 == 0){
+                throw new ArithmeticException();
+            }
+            resultado = operando1 / operando2;
+            tvResultado.setText(resultado.toString());
+        }catch (ArithmeticException ae){
+            Toast.makeText(getApplicationContext(), "No se puede dividir entre 0", Toast.LENGTH_SHORT).show();
         }
-    }
 
-    private void mostrarResultado(double resultado) {
-        // Sin decimales cuando el resultado es exacto: 4 en vez de 4.0
-        if (resultado == Math.rint(resultado) && !Double.isInfinite(resultado)) {
-            tvResultado.setText(String.valueOf((long) resultado));
-        } else {
-            tvResultado.setText(String.valueOf(resultado));
-        }
-    }
-
-    private void mostrarError(@StringRes int mensaje) {
-        tvResultado.setText(R.string.resultado_vacio);
-        Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
     }
 }
