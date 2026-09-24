@@ -13,6 +13,11 @@ namespace Trivial
 
         public Random NumRandom = new Random();
 
+        int numPais;
+        int posRandomRespuesta;
+
+        int[] opcionesCapitales = new int[4];
+
         public Form1()
         {
             InitializeComponent();
@@ -20,17 +25,43 @@ namespace Trivial
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBox1.Text = Paises[NumRandom];
+            numPais = NumRandom.Next(1, 13);
+            posRandomRespuesta = NumRandom.Next(0, 4);
+            textBox1.Text = Paises[numPais];
+
+            if(posRandomRespuesta == 0)
+            {
+                textBox3.Text = Capitales[numPais];
+                textBox4.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox5.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox6.Text = Capitales[NumRandom.Next(1, 13)];
+            } else if(posRandomRespuesta == 1)
+            {
+                textBox3.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox4.Text = Capitales[numPais];
+                textBox5.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox6.Text = Capitales[NumRandom.Next(1, 13)];
+            } else if (posRandomRespuesta == 2)
+            {
+                textBox3.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox4.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox5.Text = Capitales[numPais];
+                textBox6.Text = Capitales[NumRandom.Next(1, 13)];
+            } else if (posRandomRespuesta == 3){
+                textBox3.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox4.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox5.Text = Capitales[NumRandom.Next(1, 13)];
+                textBox6.Text = Capitales[numPais];
+            }
+            
+            
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        
+
+        private void holaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-
+          holaToolStripMenuItem.Checked = true;
         }
     }
 }

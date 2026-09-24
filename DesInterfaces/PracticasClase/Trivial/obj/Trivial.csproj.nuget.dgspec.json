@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alumno\\Desktop\\GitHub\\Trivial\\Trivial.csproj": {}
+    "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alumno\\Desktop\\GitHub\\Trivial\\Trivial.csproj": {
+    "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\GitHub\\Trivial\\Trivial.csproj",
+        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj",
         "projectName": "Trivial",
-        "projectPath": "C:\\Users\\alumno\\Desktop\\GitHub\\Trivial\\Trivial.csproj",
+        "projectPath": "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj",
         "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumno\\Desktop\\GitHub\\Trivial\\obj\\",
+        "outputPath": "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
