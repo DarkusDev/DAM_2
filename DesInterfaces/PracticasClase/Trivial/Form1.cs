@@ -28,35 +28,31 @@ namespace Trivial
         private void Form1_Load(object sender, EventArgs e)
         {
             numPais = NumRandom.Next(1, 13);
-            posRandomRespuesta = NumRandom.Next(0, 4);
             textBox1.Text = Paises[numPais];
 
             cajas[0] = textBox3;
             cajas[1] = textBox4;
             cajas[2] = textBox5;
             cajas[3] = textBox6;
-            List<int> opciones = new List<int> { numPais };
 
+            List<int> opciones = new List<int> { numPais };
             while (opciones.Count < 4)
             {
                 int r = NumRandom.Next(1, 13);
                 if (!opciones.Contains(r))
-                {
                     opciones.Add(r);
-                    
-                }
             }
 
-            //opciones = opciones.OrderBy(x => NumRandom.Next() -2).ToList();
+            opciones = opciones.OrderBy(x => NumRandom.Next()).ToList(); // mezclar
+
             int i = 0;
             foreach (TextBox box in cajas)
             {
-                while (box.Text == "")
-                {
-                    box.Text = Capitales[opciones[i]];
-                    i++;
-                }
+                box.Text = Capitales[opciones[i]]; // sin while, siempre sobrescribe
+                i++;
             }
+
+
 
             /*if(posRandomRespuesta == 0)
             {
