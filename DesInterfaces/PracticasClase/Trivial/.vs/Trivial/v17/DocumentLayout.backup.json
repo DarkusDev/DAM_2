@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|c:\\users\\alumno\\desktop\\github\\dam_2\\desinterfaces\\practicasclase\\trivial\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4163BAC-7864-4AA3-81DC-2F55913238C3}|Trivial.csproj|c:\\users\\alumno\\desktop\\github\\dam_2\\desinterfaces\\practicasclase\\trivial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA8wDYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-24T09:46:23.432Z",
               "IsPinned": true,
@@ -44,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -52,8 +52,7 @@
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-24T09:49:55.038Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -69,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "C:\\Users\\alumno\\Desktop\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAowNkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-24T09:41:42.38Z",
               "EditorCaption": ""

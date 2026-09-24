@@ -27,7 +27,7 @@ namespace Trivial
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            numPais = NumRandom.Next(1, 13);
+            numPais = NumRandom.Next(1, Paises.Length);
             textBox1.Text = Paises[numPais];
 
             cajas[0] = textBox3;
@@ -38,17 +38,17 @@ namespace Trivial
             List<int> opciones = new List<int> { numPais };
             while (opciones.Count < 4)
             {
-                int r = NumRandom.Next(1, 13);
+                int r = NumRandom.Next(1, Capitales.Length);
                 if (!opciones.Contains(r))
                     opciones.Add(r);
             }
 
-            opciones = opciones.OrderBy(x => NumRandom.Next()).ToList(); // mezclar
+            opciones = opciones.OrderBy(x => NumRandom.Next()).ToList(); 
 
             int i = 0;
             foreach (TextBox box in cajas)
             {
-                box.Text = Capitales[opciones[i]]; // sin while, siempre sobrescribe
+                box.Text = Capitales[opciones[i]]; 
                 i++;
             }
 
