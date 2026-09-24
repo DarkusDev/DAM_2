@@ -17,7 +17,9 @@ namespace Trivial
         int posRandomRespuesta;
 
         int[] opcionesCapitales = new int[4];
-
+        TextBox[] cajas = new TextBox[4];
+        
+        
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +31,34 @@ namespace Trivial
             posRandomRespuesta = NumRandom.Next(0, 4);
             textBox1.Text = Paises[numPais];
 
-            if(posRandomRespuesta == 0)
+            cajas[0] = textBox3;
+            cajas[1] = textBox4;
+            cajas[2] = textBox5;
+            cajas[3] = textBox6;
+            List<int> opciones = new List<int> { numPais };
+
+            while (opciones.Count < 4)
+            {
+                int r = NumRandom.Next(1, 13);
+                if (!opciones.Contains(r))
+                {
+                    opciones.Add(r);
+                    
+                }
+            }
+
+            //opciones = opciones.OrderBy(x => NumRandom.Next() -2).ToList();
+            int i = 0;
+            foreach (TextBox box in cajas)
+            {
+                while (box.Text == "")
+                {
+                    box.Text = Capitales[opciones[i]];
+                    i++;
+                }
+            }
+
+            /*if(posRandomRespuesta == 0)
             {
                 textBox3.Text = Capitales[numPais];
                 textBox4.Text = Capitales[NumRandom.Next(1, 13)];
@@ -52,16 +81,21 @@ namespace Trivial
                 textBox4.Text = Capitales[NumRandom.Next(1, 13)];
                 textBox5.Text = Capitales[NumRandom.Next(1, 13)];
                 textBox6.Text = Capitales[numPais];
-            }
-            
-            
+            }*/
+
+
         }
 
-        
+
 
         private void holaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          holaToolStripMenuItem.Checked = true;
+            holaToolStripMenuItem.Checked = true;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
