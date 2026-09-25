@@ -13,7 +13,7 @@ public class Ej13 {
 
             bWriter.close();
         } catch (Exception e) {
-            // TODO: handle exception
+           System.out.println("Error: " + e.getMessage());
         }
 
     }

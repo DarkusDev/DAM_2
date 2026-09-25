@@ -66,7 +66,7 @@ public class Ej15 {
 
             bWriter.close();
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }
