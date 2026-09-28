@@ -94,6 +94,7 @@
             textBox3.ReadOnly = true;
             textBox3.Size = new Size(421, 43);
             textBox3.TabIndex = 4;
+            textBox3.Click += textBox3_Click;
             // 
             // textBox4
             // 
@@ -103,6 +104,7 @@
             textBox4.ReadOnly = true;
             textBox4.Size = new Size(421, 43);
             textBox4.TabIndex = 5;
+            textBox4.Click += textBox3_Click;
             // 
             // textBox5
             // 
@@ -112,6 +114,7 @@
             textBox5.ReadOnly = true;
             textBox5.Size = new Size(421, 43);
             textBox5.TabIndex = 6;
+            textBox5.Click += textBox3_Click;
             // 
             // textBox6
             // 
@@ -121,6 +124,7 @@
             textBox6.ReadOnly = true;
             textBox6.Size = new Size(421, 43);
             textBox6.TabIndex = 7;
+            textBox6.Click += textBox3_Click;
             // 
             // button1
             // 
@@ -130,6 +134,7 @@
             button1.TabIndex = 8;
             button1.Text = "Siguiente";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
