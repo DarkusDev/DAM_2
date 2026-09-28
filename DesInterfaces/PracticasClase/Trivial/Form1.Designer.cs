@@ -40,10 +40,9 @@
             button2 = new Button();
             textBox7 = new TextBox();
             mnu = new MenuStrip();
-            toolStripMenuItem1 = new ToolStripMenuItem();
-            holaToolStripMenuItem = new ToolStripMenuItem();
-            adiosToolStripMenuItem = new ToolStripMenuItem();
-            toolStripMenuItem3 = new ToolStripMenuItem();
+            Partida = new ToolStripMenuItem();
+            NombreCapitales = new ToolStripMenuItem();
+            NombrePaises = new ToolStripMenuItem();
             mnu.SuspendLayout();
             SuspendLayout();
             // 
@@ -144,50 +143,46 @@
             button2.TabIndex = 9;
             button2.Text = "Salir";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // textBox7
             // 
             textBox7.BackColor = SystemColors.Info;
             textBox7.Font = new Font("Segoe UI", 20F);
-            textBox7.Location = new Point(362, 504);
+            textBox7.Location = new Point(365, 504);
             textBox7.Name = "textBox7";
-            textBox7.Size = new Size(71, 43);
+            textBox7.Size = new Size(68, 43);
             textBox7.TabIndex = 10;
+            textBox7.TextChanged += textBox7_TextChanged;
             // 
             // mnu
             // 
-            mnu.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1 });
+            mnu.Items.AddRange(new ToolStripItem[] { Partida });
             mnu.Location = new Point(0, 0);
             mnu.Name = "mnu";
             mnu.Size = new Size(445, 24);
             mnu.TabIndex = 11;
             mnu.Text = "menuStrip1";
             // 
-            // toolStripMenuItem1
+            // Partida
             // 
-            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { holaToolStripMenuItem, adiosToolStripMenuItem, toolStripMenuItem3 });
-            toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(125, 20);
-            toolStripMenuItem1.Text = "toolStripMenuItem1";
+            Partida.DropDownItems.AddRange(new ToolStripItem[] { NombreCapitales, NombrePaises });
+            Partida.Name = "Partida";
+            Partida.Size = new Size(56, 20);
+            Partida.Text = "Partida";
             // 
-            // holaToolStripMenuItem
+            // NombreCapitales
             // 
-            holaToolStripMenuItem.Name = "holaToolStripMenuItem";
-            holaToolStripMenuItem.Size = new Size(104, 22);
-            holaToolStripMenuItem.Text = "Hola";
-            holaToolStripMenuItem.Click += holaToolStripMenuItem_Click;
+            NombreCapitales.Name = "NombreCapitales";
+            NombreCapitales.Size = new Size(180, 22);
+            NombreCapitales.Text = "Nombre Capitales";
+            NombreCapitales.Click += holaToolStripMenuItem_Click;
             // 
-            // adiosToolStripMenuItem
+            // NombrePaises
             // 
-            adiosToolStripMenuItem.Name = "adiosToolStripMenuItem";
-            adiosToolStripMenuItem.Size = new Size(104, 22);
-            adiosToolStripMenuItem.Text = "Adios";
-            // 
-            // toolStripMenuItem3
-            // 
-            toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(104, 22);
-            toolStripMenuItem3.Text = "+";
+            NombrePaises.Name = "NombrePaises";
+            NombrePaises.Size = new Size(180, 22);
+            NombrePaises.Text = "Nombre Paises";
             // 
             // Form1
             // 
@@ -230,9 +225,8 @@
         private Button button2;
         private TextBox textBox7;
         private MenuStrip mnu;
-        private ToolStripMenuItem toolStripMenuItem1;
-        private ToolStripMenuItem holaToolStripMenuItem;
-        private ToolStripMenuItem adiosToolStripMenuItem;
-        private ToolStripMenuItem toolStripMenuItem3;
+        private ToolStripMenuItem Partida;
+        private ToolStripMenuItem NombreCapitales;
+        private ToolStripMenuItem NombrePaises;
     }
 }
