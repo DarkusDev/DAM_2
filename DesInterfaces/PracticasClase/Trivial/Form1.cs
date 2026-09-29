@@ -19,6 +19,10 @@ namespace Trivial
 
         int numPais;
         int posRandomRespuesta;
+        float porcentaje;
+
+        int respuestasCorrectas;
+        int respuestasIncorrectas;
 
         int[] opcionesCapitales = new int[4];
         TextBox[] cajas = new TextBox[4];
@@ -32,7 +36,9 @@ namespace Trivial
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            numPais = NumRandom.Next(1, Paises.Count);
+            textBox7.Text = "0";
+
+            numPais = NumRandom.Next(0, Paises.Count);
             textBox1.Text = Paises[numPais];
 
             cajas[0] = textBox3;
@@ -43,7 +49,7 @@ namespace Trivial
             List<int> opciones = new List<int> { numPais };
             while (opciones.Count < 4)
             {
-                int r = NumRandom.Next(1, Capitales.Length);
+                int r = NumRandom.Next(0, Capitales.Length);
                 if (!opciones.Contains(r))
                     opciones.Add(r);
             }
@@ -63,12 +69,12 @@ namespace Trivial
 
         private void holaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            holaToolStripMenuItem.Checked = true;
+            NombreCapitales.Checked = true;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void textBox3_Click(object sender, EventArgs e)
@@ -79,7 +85,7 @@ namespace Trivial
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(opcionSeleccionada == Capitales[numPais])
+            if (opcionSeleccionada == Capitales[numPais])
             {
                 textBox2.Text = "Correcto!";
                 CargaPregunta();
@@ -93,21 +99,32 @@ namespace Trivial
 
         public void CargaPregunta()
         {
-            String numPaisAntiguo = Paises[numPais];
-            PaisesUsados.Add(numPaisAntiguo);
-
-            for(int pais = 0; pais < PaisesUsados.Count; pais++)
+            PaisesUsados.Add(Paises[numPais]);
+            if (textBox2.Text.Equals("Correcto!"))
             {
-                if (PaisesUsados.Contains(numPaisAntiguo))
-                {
-                    break;
-                }
-                else
-                {
-                    numPais = NumRandom.Next(1, Paises.Count);
-                }
+                respuestasCorrectas++;
             }
-           
+            else
+            {
+                respuestasIncorrectas++;
+            }
+
+            porcentaje = PaisesUsados.Count * 100 / Paises.Count;
+            textBox7.Text = porcentaje + "%";
+            if (PaisesUsados.Count == Paises.Count)
+            {
+                textBox2.Text = "¡Fin del juego!";
+                textBox1.Text = "Correctas: " + respuestasCorrectas + " Incorrectas: " + respuestasIncorrectas;
+                button1.Enabled = false;
+                return;
+            }
+
+            do
+            {
+                numPais = NumRandom.Next(Paises.Count);
+            }
+            while (PaisesUsados.Contains(Paises[numPais]));
+
             textBox1.Text = Paises[numPais];
 
             cajas[0] = textBox3;
@@ -118,7 +135,7 @@ namespace Trivial
             List<int> opciones = new List<int> { numPais };
             while (opciones.Count < 4)
             {
-                int r = NumRandom.Next(1, Capitales.Length);
+                int r = NumRandom.Next(0, Capitales.Length);
                 if (!opciones.Contains(r))
                     opciones.Add(r);
             }
@@ -132,7 +149,17 @@ namespace Trivial
                 i++;
             }
         }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 
-   
+
 }
