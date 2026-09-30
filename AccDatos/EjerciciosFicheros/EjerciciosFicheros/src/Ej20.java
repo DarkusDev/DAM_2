@@ -39,6 +39,7 @@ public class Ej20 {
         try {
             for(;;){
                 dOutputStream.write(dInputStream.readAllBytes());
+                break;
             }
             
         } catch (EOFException e) {
