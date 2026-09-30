@@ -14,7 +14,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText etOperando1;
     private EditText etOperando2;
@@ -47,42 +47,15 @@ public class MainActivity extends AppCompatActivity {
         rbMultiplicar = findViewById(R.id.rbMultiplicar);
         rbDividir = findViewById(R.id.rbDividir);
 
-        rbSumar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sumar();
-            }
-        });
-
-        rbRestar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                restar();
-            }
-        });
-
-        rbMultiplicar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                multiplicar();
-            }
-        });
-
-        rbDividir.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dividir();
-            }
-        });
-
-
-
+        rbSumar.setOnClickListener(this);
+        rbRestar.setOnClickListener(this);
+        rbDividir.setOnClickListener(this);
+        rbMultiplicar.setOnClickListener(this);
     }
 
-    public void sumar() {
+    public void sumar(Double operando1, Double operando2) {
 
-        operando1 = Double.parseDouble(etOperando1.getText().toString());
-        operando2 = Double.parseDouble(etOperando2.getText().toString());
+
 
         resultado = operando1 + operando2;
 
@@ -90,26 +63,23 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void restar() {
-        operando1 = Double.parseDouble(etOperando1.getText().toString());
-        operando2 = Double.parseDouble(etOperando2.getText().toString());
+    public void restar(Double operando1, Double operando2) {
+
 
         resultado = operando1 - operando2;
         tvResultado.setText(resultado.toString());
     }
 
-    public void multiplicar() {
-        operando1 = Double.parseDouble(etOperando1.getText().toString());
-        operando2 = Double.parseDouble(etOperando2.getText().toString());
+    public void multiplicar(Double operando1, Double operando2) {
+
 
         resultado = operando1 * operando2;
         tvResultado.setText(resultado.toString());
     }
 
-    public void dividir() {
+    public void dividir(Double operando1, Double operando2) {
         try {
-            operando1 = Double.parseDouble(etOperando1.getText().toString());
-            operando2 = Double.parseDouble(etOperando2.getText().toString());
+
             if (operando2 == 0){
                 throw new ArithmeticException();
             }
@@ -118,6 +88,31 @@ public class MainActivity extends AppCompatActivity {
         }catch (ArithmeticException ae){
             Toast.makeText(getApplicationContext(), "No se puede dividir entre 0", Toast.LENGTH_SHORT).show();
         }
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        try{
+            operando1 = Double.parseDouble(etOperando1.getText().toString());
+            operando2 = Double.parseDouble(etOperando2.getText().toString());
+
+            if(v.getId() == R.id.rbSumar){
+                sumar(operando1, operando2);
+            }
+            if (v.getId() == R.id.rbRestar) {
+                restar(operando1, operando2);
+            }
+            if (v.getId() == R.id.rbDividir) {
+                dividir(operando1, operando2);
+            }
+            if (v.getId() == R.id.rbMultiplicar) {
+                multiplicar(operando1, operando2);
+            }
+        }catch (NumberFormatException e){
+            Toast.makeText(getApplicationContext(), "Falta operando", Toast.LENGTH_SHORT).show();
+        }
+
 
     }
 }
