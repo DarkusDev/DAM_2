@@ -49,4 +49,3 @@ C:\Users\puiud\Documents\GitHub\DAM_2\DesInterfaces\PracticasClase\Trivial\obj\D
 C:\Users\puiud\Documents\GitHub\DAM_2\DesInterfaces\PracticasClase\Trivial\obj\Debug\net8.0-windows\Trivial.pdb
 C:\Users\puiud\Documents\GitHub\DAM_2\DesInterfaces\PracticasClase\Trivial\obj\Debug\net8.0-windows\Trivial.genruntimeconfig.cache
 C:\Users\puiud\Documents\GitHub\DAM_2\DesInterfaces\PracticasClase\Trivial\obj\Debug\net8.0-windows\ref\Trivial.dll
-C:\Users\puiud\Documents\GitHub\DAM_2\DesInterfaces\PracticasClase\Trivial\obj\Debug\net8.0-windows\Trivial.csproj.Up2Date

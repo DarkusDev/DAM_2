@@ -1,27 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj": {}
+    "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj": {
+    "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj",
+        "projectUniqueName": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj",
         "projectName": "Trivial",
-        "projectPath": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj",
-        "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\obj\\",
+        "projectPath": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\Trivial.csproj",
+        "packagesPath": "C:\\Users\\puiud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\Trivial\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\puiud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
@@ -38,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -62,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -179,14 +179,14 @@
             // NombreCapitales
             // 
             NombreCapitales.Name = "NombreCapitales";
-            NombreCapitales.Size = new Size(180, 22);
+            NombreCapitales.Size = new Size(108, 22);
             NombreCapitales.Text = "Nueva";
             NombreCapitales.Click += holaToolStripMenuItem_Click;
             // 
             // NombrePaises
             // 
             NombrePaises.Name = "NombrePaises";
-            NombrePaises.Size = new Size(180, 22);
+            NombrePaises.Size = new Size(108, 22);
             NombrePaises.Text = "Salir";
             NombrePaises.Click += NombrePaises_Click;
             // 
@@ -209,18 +209,21 @@
             capitalesPaisesToolStripMenuItem.Name = "capitalesPaisesToolStripMenuItem";
             capitalesPaisesToolStripMenuItem.Size = new Size(180, 22);
             capitalesPaisesToolStripMenuItem.Text = "Capitales-Paises";
+            capitalesPaisesToolStripMenuItem.Click += capitalesPaisesToolStripMenuItem_Click;
             // 
             // multiplesOpcionesToolStripMenuItem
             // 
             multiplesOpcionesToolStripMenuItem.Name = "multiplesOpcionesToolStripMenuItem";
             multiplesOpcionesToolStripMenuItem.Size = new Size(180, 22);
             multiplesOpcionesToolStripMenuItem.Text = "Multiples Opciones";
+            multiplesOpcionesToolStripMenuItem.Click += multiplesOpcionesToolStripMenuItem_Click;
             // 
             // escribeRespuestaToolStripMenuItem
             // 
             escribeRespuestaToolStripMenuItem.Name = "escribeRespuestaToolStripMenuItem";
             escribeRespuestaToolStripMenuItem.Size = new Size(180, 22);
             escribeRespuestaToolStripMenuItem.Text = "Escribe Respuesta";
+            escribeRespuestaToolStripMenuItem.Click += escribeRespuestaToolStripMenuItem_Click;
             // 
             // Form1
             // 
