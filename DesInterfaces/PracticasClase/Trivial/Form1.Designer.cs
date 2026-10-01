@@ -43,6 +43,11 @@
             Partida = new ToolStripMenuItem();
             NombreCapitales = new ToolStripMenuItem();
             NombrePaises = new ToolStripMenuItem();
+            opcionesToolStripMenuItem = new ToolStripMenuItem();
+            paisesCapitalesToolStripMenuItem = new ToolStripMenuItem();
+            capitalesPaisesToolStripMenuItem = new ToolStripMenuItem();
+            multiplesOpcionesToolStripMenuItem = new ToolStripMenuItem();
+            escribeRespuestaToolStripMenuItem = new ToolStripMenuItem();
             mnu.SuspendLayout();
             SuspendLayout();
             // 
@@ -157,7 +162,7 @@
             // 
             // mnu
             // 
-            mnu.Items.AddRange(new ToolStripItem[] { Partida });
+            mnu.Items.AddRange(new ToolStripItem[] { Partida, opcionesToolStripMenuItem });
             mnu.Location = new Point(0, 0);
             mnu.Name = "mnu";
             mnu.Size = new Size(445, 24);
@@ -175,14 +180,47 @@
             // 
             NombreCapitales.Name = "NombreCapitales";
             NombreCapitales.Size = new Size(180, 22);
-            NombreCapitales.Text = "Nombre Capitales";
+            NombreCapitales.Text = "Nueva";
             NombreCapitales.Click += holaToolStripMenuItem_Click;
             // 
             // NombrePaises
             // 
             NombrePaises.Name = "NombrePaises";
             NombrePaises.Size = new Size(180, 22);
-            NombrePaises.Text = "Nombre Paises";
+            NombrePaises.Text = "Salir";
+            NombrePaises.Click += NombrePaises_Click;
+            // 
+            // opcionesToolStripMenuItem
+            // 
+            opcionesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { paisesCapitalesToolStripMenuItem, capitalesPaisesToolStripMenuItem, multiplesOpcionesToolStripMenuItem, escribeRespuestaToolStripMenuItem });
+            opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
+            opcionesToolStripMenuItem.Size = new Size(69, 20);
+            opcionesToolStripMenuItem.Text = "Opciones";
+            // 
+            // paisesCapitalesToolStripMenuItem
+            // 
+            paisesCapitalesToolStripMenuItem.Name = "paisesCapitalesToolStripMenuItem";
+            paisesCapitalesToolStripMenuItem.Size = new Size(180, 22);
+            paisesCapitalesToolStripMenuItem.Text = "Paises-Capitales";
+            paisesCapitalesToolStripMenuItem.Click += paisesCapitalesToolStripMenuItem_Click;
+            // 
+            // capitalesPaisesToolStripMenuItem
+            // 
+            capitalesPaisesToolStripMenuItem.Name = "capitalesPaisesToolStripMenuItem";
+            capitalesPaisesToolStripMenuItem.Size = new Size(180, 22);
+            capitalesPaisesToolStripMenuItem.Text = "Capitales-Paises";
+            // 
+            // multiplesOpcionesToolStripMenuItem
+            // 
+            multiplesOpcionesToolStripMenuItem.Name = "multiplesOpcionesToolStripMenuItem";
+            multiplesOpcionesToolStripMenuItem.Size = new Size(180, 22);
+            multiplesOpcionesToolStripMenuItem.Text = "Multiples Opciones";
+            // 
+            // escribeRespuestaToolStripMenuItem
+            // 
+            escribeRespuestaToolStripMenuItem.Name = "escribeRespuestaToolStripMenuItem";
+            escribeRespuestaToolStripMenuItem.Size = new Size(180, 22);
+            escribeRespuestaToolStripMenuItem.Text = "Escribe Respuesta";
             // 
             // Form1
             // 
@@ -228,5 +266,10 @@
         private ToolStripMenuItem Partida;
         private ToolStripMenuItem NombreCapitales;
         private ToolStripMenuItem NombrePaises;
+        private ToolStripMenuItem opcionesToolStripMenuItem;
+        private ToolStripMenuItem paisesCapitalesToolStripMenuItem;
+        private ToolStripMenuItem capitalesPaisesToolStripMenuItem;
+        private ToolStripMenuItem multiplesOpcionesToolStripMenuItem;
+        private ToolStripMenuItem escribeRespuestaToolStripMenuItem;
     }
 }

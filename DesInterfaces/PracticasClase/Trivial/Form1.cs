@@ -36,6 +36,8 @@ namespace Trivial
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+            paisesCapitalesToolStripMenuItem.Checked = true;
             textBox7.Text = "0";
 
             numPais = NumRandom.Next(0, Paises.Count);
@@ -63,13 +65,20 @@ namespace Trivial
                 i++;
             }
 
+            if (paisesCapitalesToolStripMenuItem.Pressed)
+            {
+
+            }
+
         }
 
 
 
         private void holaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NombreCapitales.Checked = true;
+            textBox2.Text = "";
+            Form1_Load(sender, e);
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -158,6 +167,16 @@ namespace Trivial
         private void button2_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void NombrePaises_Click(object sender, EventArgs e)
+        {
+            button2_Click(sender, e);
+        }
+
+        private void paisesCapitalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
