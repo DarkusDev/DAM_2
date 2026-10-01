@@ -1,4 +1,4 @@
-###
+"""###
 # 01 - Bucles (while)
 # Permiten ejecutar un bloque de código repetidamente mientras se cumpla una condición
 ###
@@ -109,5 +109,21 @@ print("\nEjercicio 5:")
 
 # Ejercicio 6: Números primos hasta N
 # Pide al usuario que introduzca un número entero positivo N.
-# Imprime todos los números primos menores o iguales que N usando un bucle while.
-print("\nEjercicio 6:")
+# Imprime todos los números primos menores o iguales que N usando un bucle while. """
+
+
+numUsuario = int(input("Hasta que numero quieres comprobar? "))
+primerNum = 2  
+
+while primerNum < numUsuario:
+    esPrimo = True
+    divisor = 2
+    while divisor * divisor <= primerNum:
+        if primerNum % divisor == 0:
+            esPrimo = False
+            break
+        divisor += 1
+    if esPrimo:
+        print(primerNum)
+    primerNum += 1
+  
