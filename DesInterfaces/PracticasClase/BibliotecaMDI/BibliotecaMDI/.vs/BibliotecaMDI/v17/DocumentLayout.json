@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,12 +39,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormAlta.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
+              "RelativeDocumentMoniker": "FormAlta.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
+              "RelativeToolTip": "FormAlta.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAvwEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:40:57.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAlta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
+              "RelativeDocumentMoniker": "FormAlta.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormAlta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:40:21.956Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Libro.cs",
               "RelativeDocumentMoniker": "Libro.cs",
               "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Libro.cs",
               "RelativeToolTip": "Libro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T11:01:06.931Z",
               "EditorCaption": ""
@@ -44,14 +77,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormPrincipal.cs [Design]",
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs [Design]",
-              "RelativeToolTip": "FormPrincipal.cs [Design]",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T10:41:13.924Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -61,9 +94,10 @@
               "RelativeDocumentMoniker": "FormPrincipal.Designer.cs",
               "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.Designer.cs",
               "RelativeToolTip": "FormPrincipal.Designer.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwD8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T10:04:17.824Z"
+              "WhenOpened": "2026-10-01T10:04:17.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,7 +107,7 @@
               "RelativeDocumentMoniker": "FormPrincipal.cs",
               "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
               "RelativeToolTip": "FormPrincipal.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAA5wDwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T09:48:48.401Z",
               "EditorCaption": ""

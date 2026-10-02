@@ -1,12 +1,13 @@
 namespace BibliotecaMDI
 {
-    public partial class GestionBiblioteca : Form
+    public partial class FormPrincipal : Form
     {
         private FormAlta fAlt;
         private FormConsulta fCon;
         private bool formActivo;
 
-        public GestionBiblioteca()
+        public  List<Libro> listaLibros = new List<Libro>();
+        public FormPrincipal()
         {
             InitializeComponent();
         }

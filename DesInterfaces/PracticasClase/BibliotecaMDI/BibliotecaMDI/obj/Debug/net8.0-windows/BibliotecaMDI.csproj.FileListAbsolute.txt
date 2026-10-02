@@ -1,6 +1,5 @@
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.FormAlta.resources
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.FormConsulta.resources
-C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.GestionBiblioteca.resources
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.csproj.GenerateResource.cache
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.AssemblyInfoInputs.cache
@@ -17,3 +16,4 @@ C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\Bibliot
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.pdb
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.genruntimeconfig.cache
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\ref\BibliotecaMDI.dll
+C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.FormPrincipal.resources

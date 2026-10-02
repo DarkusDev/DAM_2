@@ -12,9 +12,9 @@ namespace BibliotecaMDI
         private string autor;
         private string editorial;
         private bool nuevo;
-        private string foto;
+        private Bitmap foto;
 
-        public Libro(string titulo, string autor, string editorial, bool nuevo, string foto)
+        public Libro(string titulo, string autor, string editorial, bool nuevo, Bitmap foto)
         {
             this.titulo = titulo;
             this.autor = autor;

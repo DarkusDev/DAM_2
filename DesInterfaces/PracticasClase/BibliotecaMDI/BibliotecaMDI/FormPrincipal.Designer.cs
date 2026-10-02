@@ -1,6 +1,6 @@
 ﻿namespace BibliotecaMDI
 {
-    partial class GestionBiblioteca
+    partial class FormPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -59,7 +59,7 @@
             // 
             mnuAlta.Name = "mnuAlta";
             mnuAlta.ShortcutKeys = Keys.Control | Keys.A;
-            mnuAlta.Size = new Size(180, 22);
+            mnuAlta.Size = new Size(163, 22);
             mnuAlta.Text = "Alta";
             mnuAlta.Click += mnuAlta_Click;
             // 
@@ -67,20 +67,20 @@
             // 
             mnuConsulta.Name = "mnuConsulta";
             mnuConsulta.ShortcutKeys = Keys.Control | Keys.C;
-            mnuConsulta.Size = new Size(180, 22);
+            mnuConsulta.Size = new Size(163, 22);
             mnuConsulta.Text = "Consulta";
             mnuConsulta.Click += mnuConsulta_Click;
             // 
             // saliToolStripMenuItem
             // 
             saliToolStripMenuItem.Name = "saliToolStripMenuItem";
-            saliToolStripMenuItem.Size = new Size(177, 6);
+            saliToolStripMenuItem.Size = new Size(160, 6);
             // 
             // mnuSalir
             // 
             mnuSalir.Name = "mnuSalir";
             mnuSalir.ShortcutKeys = Keys.Control | Keys.S;
-            mnuSalir.Size = new Size(180, 22);
+            mnuSalir.Size = new Size(163, 22);
             mnuSalir.Text = "Salir";
             mnuSalir.Click += mnuSalir_Click;
             // 
@@ -89,7 +89,7 @@
             fileSystemWatcher1.EnableRaisingEvents = true;
             fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // GestionBiblioteca
+            // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -97,7 +97,7 @@
             Controls.Add(MenuPrincipal);
             IsMdiContainer = true;
             MainMenuStrip = MenuPrincipal;
-            Name = "GestionBiblioteca";
+            Name = "FormPrincipal";
             Text = "Gestion Bilioteca";
             Load += GestionBiblioteca_Load;
             MenuPrincipal.ResumeLayout(false);
