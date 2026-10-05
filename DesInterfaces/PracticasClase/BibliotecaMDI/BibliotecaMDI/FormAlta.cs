@@ -64,12 +64,33 @@ namespace BibliotecaMDI
             }
             imagenPortada = new Bitmap(openFileDialog1.FileName);
 
-            FormPrincipal frmPrincipal = new FormPrincipal();
+            FormPrincipal frmPrincipal = (FormPrincipal)this.MdiParent;
 
             List<Libro> listaLibros = frmPrincipal.listaLibros;
 
-            listaLibros.Add(new Libro(titulo, autor, editorial, nuevo, imagenPortada));
+            bool existe = false;
+            foreach (Libro l in listaLibros)
+            {
+                if(l.getTitulo().ToString().Equals(titulo))
+                {
+                   existe = true;
+                    break;
+                }
+                
+            }
 
-    }
+            if(existe)
+            {
+                MessageBox.Show("Ya hay un libro con estos parametros");
+            }
+            else
+            {
+                listaLibros.Add(new Libro(titulo, autor, editorial, nuevo, imagenPortada));
+            }
+            
+
+
+
+        }
     }
 }

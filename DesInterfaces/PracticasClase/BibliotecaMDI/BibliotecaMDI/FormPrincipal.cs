@@ -1,3 +1,5 @@
+using Microsoft.VisualBasic.ApplicationServices;
+
 namespace BibliotecaMDI
 {
     public partial class FormPrincipal : Form
@@ -6,7 +8,7 @@ namespace BibliotecaMDI
         private FormConsulta fCon;
         private bool formActivo;
 
-        public  List<Libro> listaLibros = new List<Libro>();
+        public List<Libro> listaLibros = new List<Libro>();
         public FormPrincipal()
         {
             InitializeComponent();
@@ -14,7 +16,8 @@ namespace BibliotecaMDI
 
         private void GestionBiblioteca_Load(object sender, EventArgs e)
         {
-
+            //Bitmap portada = Properties.FormPrincipal.l;
+            listaLibros.Add(new Libro("La odisea", "Homero", "Gredos", true, new Bitmap(@"C:\\Users\\alumno\\Downloads")));
         }
 
         private void mnuAlta_Click(object sender, EventArgs e)

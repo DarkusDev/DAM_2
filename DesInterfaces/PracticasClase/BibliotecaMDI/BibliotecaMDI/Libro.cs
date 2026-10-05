@@ -32,5 +32,37 @@ namespace BibliotecaMDI
         {
             this.titulo = titulo;
         }
+
+        public String getAutor()
+        {
+            return autor;
+        }
+
+        public void setAutor(string autor)
+        {
+            this.autor = autor;
+        }
+
+        public String getEditorial()
+        {
+            return editorial;
+        }
+
+        public void setEditorial(string editorial)
+        {
+            this.editorial = editorial;
+        }
+
+        public Bitmap getImage()
+        {
+            return foto;
+        }
+
+        public void setImage(Bitmap foto)
+        {
+            this.foto = foto;
+        }
+
+
     }
 }

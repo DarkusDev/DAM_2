@@ -17,3 +17,4 @@ C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\Bibliot
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.genruntimeconfig.cache
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\ref\BibliotecaMDI.dll
 C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.FormPrincipal.resources
+C:\Users\alumno\Desktop\DAM_2\DesInterfaces\PracticasClase\BibliotecaMDI\BibliotecaMDI\obj\Debug\net8.0-windows\BibliotecaMDI.Properties.Resources.resources
