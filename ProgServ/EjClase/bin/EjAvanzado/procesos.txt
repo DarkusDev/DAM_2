@@ -1,0 +1,3 @@
+Proc1 /media/sf_ProgServ/EjClase/src/EjAvanzado/Proc1.txt
+Proc2 /media/sf_ProgServ/EjClase/src/EjAvanzado/Proc2.txt
+Proc3 /media/sf_ProgServ/EjClase/src/EjAvanzado/Proc3.txt

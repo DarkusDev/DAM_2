@@ -79,13 +79,23 @@ public class EjMenuPadre {
 						break;
 						
 					case "matar":
-						process.destroy();
-						System.out.println("El proceso hijo fue finalizado");
+						if(process.isAlive()) {
+							process.destroy();
+							System.out.println("El proceso hijo fue finalizado");
+						} else {
+							System.out.println("No hay ningun proceso que matar");
+						}
+						
 						break;
 						
 					case "resucitar":
-						process = pBuilder.start();
-						System.out.println("El proceso hijo se ha iniciado");
+						if(!process.isAlive()) {
+							process = pBuilder.start();
+							System.out.println("El proceso hijo se ha iniciado");
+						} else {
+							System.out.println("El proceso esta vivo, no se puede resucitar");
+						}
+						
 						break;
 						
 					case "salir":
