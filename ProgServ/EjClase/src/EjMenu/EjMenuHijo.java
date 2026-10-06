@@ -8,12 +8,21 @@ public class EjMenuHijo{
 		Scanner sc = new Scanner(System.in);
 		
 		String opcionMenu = "";
-		opcionMenu = sc.nextLine();
-		String infoRecibida = "";
-		infoRecibida = sc.nextLine();
+		opcionMenu = sc.nextLine().toLowerCase();
 		
-		//System.out.println(opcionMenu);
-		System.out.println(infoRecibida);
+		
+		if(opcionMenu.equals("eco")) {
+			String infoRecibida = "";
+			infoRecibida = sc.nextLine();
+			System.out.println("Hijo: " +infoRecibida);
+			opcionMenu = "";
+		}
+		
+		if(opcionMenu.equals("saludo")) {
+			System.out.println("Hijo: " + " Hola proceso padre!");
+			opcionMenu = "";
+		}
+		
 		
 	}
 }
