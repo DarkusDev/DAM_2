@@ -1,50 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\",
+  "WorkspaceRootPath": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\bibliotecamdi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:bibliotecamdi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\bibliotecamdi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:bibliotecamdi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\bibliotecamdi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:bibliotecamdi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\bibliotecamdi\\bibliotecamdi\\formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D53021-E906-42F6-A9B3-AE5AB9CCF5EA}|BibliotecaMDI.csproj|solutionrelative:formconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,32 +54,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T18:27:03.701Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Properties\\Resources.resx",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Properties\\Resources.resx",
               "RelativeToolTip": "Properties\\Resources.resx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-10-05T11:13:05.64Z",
+              "WhenOpened": "2026-10-07T18:24:20.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BibliotecaMDI",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
               "RelativeDocumentMoniker": "BibliotecaMDI.csproj",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
               "RelativeToolTip": "BibliotecaMDI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-05T11:06:23.741Z",
+              "WhenOpened": "2026-10-07T18:22:10.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-10-05T11:13:05.64Z",
               "EditorCaption": ""
             },
             {
@@ -88,61 +111,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BibliotecaMDI",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
-              "RelativeDocumentMoniker": "BibliotecaMDI.csproj",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
-              "RelativeToolTip": "BibliotecaMDI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-05T11:06:27.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "FormAlta.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
               "RelativeDocumentMoniker": "FormAlta.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
               "RelativeToolTip": "FormAlta.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwE4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T10:40:57.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T10:41:13.924Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.cs",
               "RelativeToolTip": "FormPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAewBIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwF8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T09:48:48.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "FormAlta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs",
               "RelativeDocumentMoniker": "FormAlta.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormAlta.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormAlta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T10:40:21.956Z",
@@ -150,24 +149,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "FormConsulta.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs",
               "RelativeDocumentMoniker": "FormConsulta.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs",
               "RelativeToolTip": "FormConsulta.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAewEEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T08:31:41.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FormConsulta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs",
               "RelativeDocumentMoniker": "FormConsulta.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormConsulta.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormConsulta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T08:19:12.414Z",
@@ -177,24 +176,28 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Libro.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Libro.cs",
               "RelativeDocumentMoniker": "Libro.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Libro.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\Libro.cs",
               "RelativeToolTip": "Libro.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T11:01:06.931Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "FormPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.Designer.cs",
               "RelativeDocumentMoniker": "FormPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\BibliotecaMDI\\BibliotecaMDI\\FormPrincipal.Designer.cs",
               "RelativeToolTip": "FormPrincipal.Designer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAvwHEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T10:04:17.824Z",
               "EditorCaption": ""

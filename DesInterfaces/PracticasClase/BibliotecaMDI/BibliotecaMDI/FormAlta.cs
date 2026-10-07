@@ -51,6 +51,13 @@ namespace BibliotecaMDI
 
         private void button3_Click(object sender, EventArgs e)
         {
+
+            if(textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || pictureBox1.Image == null)
+            {
+                MessageBox.Show("Faltan campos por rellenar");
+                return;
+            }
+
             titulo = textBox1.Text.ToString();
             autor = textBox2.Text.ToString();
             editorial = textBox3.Text.ToString();
@@ -86,6 +93,13 @@ namespace BibliotecaMDI
             else
             {
                 listaLibros.Add(new Libro(titulo, autor, editorial, nuevo, imagenPortada));
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+               
+                checkBox1.Checked = false;
+                pictureBox1.Image = null;
+                MessageBox.Show("Libro dado de alta correctamente");
             }
             
 

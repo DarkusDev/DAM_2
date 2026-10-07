@@ -35,6 +35,7 @@
             saliToolStripMenuItem = new ToolStripSeparator();
             mnuSalir = new ToolStripMenuItem();
             fileSystemWatcher1 = new FileSystemWatcher();
+            label1 = new Label();
             MenuPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
             SuspendLayout();
@@ -89,17 +90,29 @@
             fileSystemWatcher1.EnableRaisingEvents = true;
             fileSystemWatcher1.SynchronizingObject = this;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 20F);
+            label1.Location = new Point(520, 391);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 37);
+            label1.TabIndex = 3;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(MenuPrincipal);
             IsMdiContainer = true;
             MainMenuStrip = MenuPrincipal;
             Name = "FormPrincipal";
             Text = "Gestion Bilioteca";
+            FormClosing += FormPrincipal_FormClosing;
             Load += GestionBiblioteca_Load;
+            MdiChildActivate += FormPrincipal_MdiChildActivate;
             MenuPrincipal.ResumeLayout(false);
             MenuPrincipal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
@@ -116,5 +129,6 @@
         private ToolStripSeparator saliToolStripMenuItem;
         private ToolStripMenuItem mnuSalir;
         private FileSystemWatcher fileSystemWatcher1;
+        private Label label1;
     }
 }

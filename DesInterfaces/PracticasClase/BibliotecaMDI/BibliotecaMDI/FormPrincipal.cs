@@ -1,4 +1,5 @@
 using Microsoft.VisualBasic.ApplicationServices;
+using System.Threading.Tasks;
 
 namespace BibliotecaMDI
 {
@@ -14,16 +15,25 @@ namespace BibliotecaMDI
             InitializeComponent();
         }
 
-        private void GestionBiblioteca_Load(object sender, EventArgs e)
+        private async void GestionBiblioteca_Load(object sender, EventArgs e)
         {
             //Bitmap portada = Properties.FormPrincipal.l;
-            listaLibros.Add(new Libro("La odisea", "Homero", "Gredos", true, new Bitmap(@"C:\\Users\\alumno\\Downloads")));
+            //listaLibros.Add(new Libro("La odisea", "Homero", "Gredos", true, new Bitmap(@"C:\\Users\\alumno\\Downloads")));
+            while (true)
+            {
+
+                label1.Text = "Hora Actual: " + DateTime.Now.ToString("HH:mm:ss");
+                await Task.Delay(1000);
+            }
         }
+
+
 
         private void mnuAlta_Click(object sender, EventArgs e)
         {
             if (ComprobarFormularios())
             {
+
                 fAlt = new FormAlta();
                 fAlt.WindowState = FormWindowState.Maximized;
                 fAlt.MdiParent = this;
@@ -36,6 +46,7 @@ namespace BibliotecaMDI
         {
             if (ComprobarFormularios())
             {
+
                 fCon = new FormConsulta();
                 fCon.WindowState = FormWindowState.Maximized;
                 fCon.MdiParent = this;
@@ -62,12 +73,29 @@ namespace BibliotecaMDI
 
         private void mnuSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult respuesta = MessageBox.Show("Seguro que quieres salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (respuesta == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void FormPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult respuesta = MessageBox.Show("Seguro que quieres salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (respuesta == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void FormPrincipal_MdiChildActivate(object sender, EventArgs e)
+        {
+            label1.Visible = (this.ActiveMdiChild == null);
         }
     }
 }
 
-/*foreach(Form f in MdiChildren)
-           {
-               MessageBox.Show(f.GetType().ToString());
-           }*/
+
