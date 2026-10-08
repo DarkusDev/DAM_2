@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Toggle_SwitchButton</string>
+    <string name="desactivar">Desactivar?</string>
+    <string name="activar">Activar?</string>
+</resources>

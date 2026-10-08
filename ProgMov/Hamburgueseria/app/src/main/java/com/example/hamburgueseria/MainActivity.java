@@ -1,6 +1,10 @@
 package com.example.hamburgueseria;
 
 import android.os.Bundle;
+import android.widget.CheckBox;
+import android.widget.ImageView;
+import android.widget.RadioButton;
+import android.widget.Switch;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +14,17 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    private RadioButton rbTernera;
+    private RadioButton rbPollo;
+    private RadioButton rbPescado;
+
+    private ImageView imFoto;
+
+    private CheckBox cbPepinillos;
+    private CheckBox cbQueso;
+    private CheckBox cbBacon;
+
+    private Switch swDescuento;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +35,19 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        rbTernera = findViewById(R.id.rbTernera);
+        rbPollo = findViewById(R.id.rbPollo);
+        rbPescado = findViewById(R.id.rbPescado);
+
+        imFoto = findViewById(R.id.ivFoto);
+
+        cbPepinillos = findViewById(R.id.cbPepinillos);
+        cbQueso = findViewById(R.id.cbQueso);
+        cbBacon = findViewById(R.id.cbBacon);
+
+        swDescuento = findViewById(R.id.swDescuento);
+
+
     }
 }

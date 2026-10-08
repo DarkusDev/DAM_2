@@ -1,6 +1,8 @@
 package com.example.banderas;
 
+import android.content.Intent;
 import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -52,6 +54,16 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "posicion: " + position, Toast.LENGTH_LONG).show();
                 imgView.setImageResource(banderas[position]);
                 txtView.setText(poblacion[position]);
+
+                imgView.setImageResource(banderas[position]);
+
+                imgView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent("android.intent.action.VIEW", Uri.parse("https://es.wikipedia.org/wiki/Espa%C3%B1a"));
+                        startActivity(i);
+                    }
+                });
             }
 
             @Override
