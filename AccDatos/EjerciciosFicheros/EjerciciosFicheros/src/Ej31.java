@@ -26,13 +26,14 @@ public class Ej31 {
                 if (emple.getNodeType() == Node.ELEMENT_NODE) {// tipo de nodo
                     // obtener los elementos del nodo
                     Element elemento = (Element) emple;
-                    System.out.printf("ID = %s %n", elemento.getElementsByTagName("id").item(0).getTextContent());
+                    System.out.printf(" * Nombre = %s %n",
+                            elemento.getElementsByTagName("nombre").item(0).getTextContent());
                     System.out.printf(" * Apellido = %s %n",
                             elemento.getElementsByTagName("apellido").item(0).getTextContent());
-                    System.out.printf(" * Departamento = %s %n",
-                            elemento.getElementsByTagName("dep").item(0).getTextContent());
-                    System.out.printf(" * Salario = %s %n",
-                            elemento.getElementsByTagName("salario").item(0).getTextContent());
+                    System.out.printf(" * Apodo = %s %n",
+                            elemento.getElementsByTagName("apodo").item(0).getTextContent());
+                    System.out.printf(" * Marcas = %s %n",
+                            elemento.getElementsByTagName("marcas").item(0).getTextContent());
                 }
             }
         } catch (Exception e) {
