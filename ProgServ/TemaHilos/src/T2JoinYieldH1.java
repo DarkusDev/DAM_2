@@ -11,9 +11,9 @@ public class T2JoinYieldH1 extends Thread {
 		for (int i = 0; i < 500; i++)
 		{
 			if (i==5) {
-				// this.yield();
-				try { Thread.sleep(0); } 
-				catch (InterruptedException e) { e.printStackTrace(); }
+				 this.yield();
+				//try { Thread.sleep(0); } 
+				//catch (InterruptedException e) { e.printStackTrace(); }
 			}
 			System.out.println(sNombre + " Pasada: " + i);
 		}
