@@ -46,7 +46,7 @@ namespace FormulariosHeredados
             {
                 if (ciudadSeleccionada.Equals("Todas") || c.getCiudad().ToLower().Equals(ciudadSeleccionada.ToLower()))
                 {
-                    // Si es vip lleva la estrella, si no el icono de persona
+                    
                     int icono = 0;
                     if (c.getVip())
                     {

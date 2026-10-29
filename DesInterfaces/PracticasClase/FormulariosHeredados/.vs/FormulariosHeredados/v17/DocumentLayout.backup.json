@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultatree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultatree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultatree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultatree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\puiud\\documents\\github\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formulariosheredados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formulariosheredados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormConsultaTree.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaTree.cs",
+              "RelativeDocumentMoniker": "FormConsultaTree.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaTree.cs",
+              "RelativeToolTip": "FormConsultaTree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:32:22.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormConsultaTree.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaTree.cs",
+              "RelativeDocumentMoniker": "FormConsultaTree.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaTree.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormConsultaTree.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:32:16.788Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormConsultaList.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs",
+              "RelativeDocumentMoniker": "FormConsultaList.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs",
+              "RelativeToolTip": "FormConsultaList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:31:56.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormConsultaList.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs",
+              "RelativeDocumentMoniker": "FormConsultaList.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormConsultaList.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:31:53.187Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAlta.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormAlta.cs",
+              "RelativeDocumentMoniker": "FormAlta.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormAlta.cs",
+              "RelativeToolTip": "FormAlta.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAmwGsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:30:51.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormAlta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormAlta.cs",
+              "RelativeDocumentMoniker": "FormAlta.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormAlta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormAlta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:30:34.741Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormBase.cs",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormBase.cs",
+              "RelativeDocumentMoniker": "FormBase.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormBase.cs",
+              "RelativeToolTip": "FormBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:29:54.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormBase.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormBase.cs",
+              "RelativeDocumentMoniker": "FormBase.cs",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormBase.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormBase.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:26:54.136Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormulariosHeredados",
+              "DocumentMoniker": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormulariosHeredados.csproj",
+              "RelativeDocumentMoniker": "FormulariosHeredados.csproj",
+              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormulariosHeredados.csproj",
+              "RelativeToolTip": "FormulariosHeredados.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-29T14:26:42.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

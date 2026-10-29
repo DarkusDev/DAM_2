@@ -29,14 +29,14 @@ namespace FormulariosHeredados
 
             foreach (string ciudad in ObtenerCiudades())
             {
-                // Nodo padre: la ciudad con el icono de la casa
+               
                 TreeNode nodoCiudad = treeView1.Nodes.Add(ciudad, ciudad, 2, 2);
 
                 foreach (Cliente c in listaClientes)
                 {
                     if (c.getCiudad().ToLower().Equals(ciudad.ToLower()))
                     {
-                        // Si es vip lleva la estrella, si no el icono de persona
+                       
                         int icono = 0;
                         if (c.getVip())
                         {
@@ -61,7 +61,7 @@ namespace FormulariosHeredados
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            // Si se selecciona una ciudad no hay cliente que mostrar
+            
             if (e.Node.Tag == null)
             {
                 LimpiarCampos();

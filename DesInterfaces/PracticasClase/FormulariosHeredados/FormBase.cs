@@ -51,14 +51,14 @@ namespace FormulariosHeredados
 
         private void AbrirFormulario(Form nuevo)
         {
-            // Si ya estamos en ese formulario no hacemos nada
+            
             if (this.GetType() == nuevo.GetType())
             {
                 nuevo.Dispose();
                 return;
             }
 
-            // Guardamos los formularios abiertos antes de abrir el nuevo
+            
             List<Form> abiertos = new List<Form>();
             foreach (Form f in Application.OpenForms)
             {
@@ -67,7 +67,7 @@ namespace FormulariosHeredados
 
             nuevo.Show();
 
-            // Solo puede haber un formulario visible: el padre se oculta y el resto se cierran
+            
             cambiandoFormulario = true;
             foreach (Form f in abiertos)
             {
@@ -101,7 +101,7 @@ namespace FormulariosHeredados
             }
             else if (!cambiandoFormulario)
             {
-                // Si se cierra un formulario hijo con la X volvemos al formulario padre
+                
                 foreach (Form f in Application.OpenForms)
                 {
                     if (f.GetType() == typeof(FormBase))
@@ -112,7 +112,7 @@ namespace FormulariosHeredados
             }
         }
 
-        // Devuelve las ciudades de los clientes sin repetir
+       
         protected List<string> ObtenerCiudades()
         {
             List<string> ciudades = new List<string>();
