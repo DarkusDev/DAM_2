@@ -13,8 +13,15 @@ public class Hilo1 extends Thread{
 		int i = 0;
 		
 		while(true) {
-			System.out.println("Hilo: " +sNombre + "paso: " + i);
+			System.out.println("Hilo: " +sNombre + " paso: " + i);
 			i++;
+			
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				System.out.println("Hilo: " + sNombre + " se ha interrumpido");
+				return;
+			}
 		}
 	}
 }

@@ -1,22 +1,38 @@
 package EjIntroHilos;
 
+import java.time.LocalTime;
+
 public class Hilo2 implements Runnable{
 
-	String sNombre;
+	static String sNombre;
 
 	public Hilo2(String sNombre){
 		this.sNombre = sNombre;
 	}
 	
+	public static String getName() {
+		return sNombre;
+	}
+	
 	@Override
 	
 	public void run() {
-		System.out.println("Iniciando: " + sNombre);
-		int i = 0;
+		System.out.println(LocalTime.now() + " " + sNombre + " activado");
+
+        while (true) {
+            try {
+                Thread.sleep(2000);
+                System.out.println(LocalTime.now() + " " + sNombre + " ha descansado 2 segundos");
+
+                long extra = (long) (Math.random() * 2001);   
+                Thread.sleep(extra);
+                System.out.println(LocalTime.now() + " " + sNombre + " ha descansado " + extra + " ms adicionales");
+
+            } catch (InterruptedException e) {
+                System.out.println(LocalTime.now() + " " + sNombre + " ha terminado (interrumpido)");
+                return;   
+            }
+        }
 		
-		while(true) {
-			System.out.println("Hilo: " +sNombre + "paso: " + i);
-			i++;
-		}
 	}
 }
