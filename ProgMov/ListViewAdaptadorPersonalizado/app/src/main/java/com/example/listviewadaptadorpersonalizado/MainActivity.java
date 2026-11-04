@@ -1,8 +1,11 @@
 package com.example.listviewadaptadorpersonalizado;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,22 +31,37 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        // Datos: la foto es un recurso R.drawable (cámbialo por fotos reales si las añades)
         personas = new ArrayList<ModeloPersona>();
-        ModeloPersona m1 = new ModeloPersona();
-        m1.setNombre("Darius");
-        m1.setCodigo(1);
-        m1.setDescripcion("Hola soy Darius");
-        m1.setFoto(2);
+        personas.add(new ModeloPersona("Darius", "Hola soy Darius", 1, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Karla", "Hola soy Karla", 2, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Vlad", "Hola soy Vlad", 3, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Javi", "Hola soy Javi", 4, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Leo", "Hola soy Leo", 5, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Dani", "Hola soy Dani", 6, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Alina", "Hola soy Alina", 7, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Adrian", "Hola soy Adrian", 8, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Pepito", "Hola soy Pepito", 9, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Juanito", "Hola soy Juanito", 10, R.drawable.ic_persona));
+        personas.add(new ModeloPersona("Carlos", "Hola soy Carlos", 11, R.drawable.ic_persona));
 
-        personas.add(m1);
+        // En vez de un ArrayAdapter normal, usamos nuestro adaptador personalizado
+        lvAgenda = (ListView) findViewById(R.id.lvAgenda);
+        AdaptadorPersona adaptador = new AdaptadorPersona(this, personas);
+        lvAgenda.setAdapter(adaptador);
 
-        lvAgenda=(ListView) findViewById(R.id.lvAgenda);
-        ArrayAdapter<ModeloPersona> arrayAdapter = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, personas);
-        lvAgenda.setAdapter(arrayAdapter);
-
-
-
-
-
+        lvAgenda.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                ModeloPersona p = personas.get(position);
+                Intent intent = new Intent(getApplicationContext(), DetallePersona.class);
+                intent.putExtra("nombre", p.getNombre());
+                intent.putExtra("descripcion", p.getDescripcion());
+                intent.putExtra("codigo", p.getCodigo());
+                intent.putExtra("foto", p.getFoto());
+                startActivity(intent);
+                Toast.makeText(getApplicationContext(), "Has elegido a " + p.getNombre(), Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }

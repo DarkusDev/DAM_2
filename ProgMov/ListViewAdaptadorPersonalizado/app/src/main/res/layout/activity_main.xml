@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agencia de Contactos Dani"
+        android:text="Agencia de Contactos Darius"
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="@color/design_default_color_primary"
