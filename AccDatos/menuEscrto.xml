@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menus>
+    <menu id="1">
+        <plato tipo="primero">
+            <nombre>Ensalada mixta</nombre>
+            <ingrediente cantidad="100g" nombre="lechuga"/>
+            <ingrediente cantidad="50g" nombre="tomate"/>
+        </plato>
+        <plato tipo="segundo">
+            <nombre>Pollo asado</nombre>
+            <ingrediente cantidad="200g" nombre="pollo"/>
+        </plato>
+    </menu>
+    <menu id="2">
+        <plato tipo="primero">
+            <nombre>Sopa de verduras</nombre>
+            <ingrediente cantidad="80g" nombre="zanahoria"/>
+        </plato>
+    </menu>
+</menus>
