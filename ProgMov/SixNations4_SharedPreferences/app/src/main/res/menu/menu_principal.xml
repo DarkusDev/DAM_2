@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menú de aplicación (barra superior). ifRoom = se ve como icono si cabe -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemOrdenarPuntos"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Ordenar por puntuación"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/itemOrdenInsercion"
+        android:title="Orden de inserción"
+        app:showAsAction="never"/>
+</menu>

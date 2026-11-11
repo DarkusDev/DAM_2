@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FrameLayout: el ListView ocupa todo y el botón "+" queda flotando abajo a la derecha -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lvJugadores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/fondo"
+        android:dividerHeight="4dp"/>
+
+    <!-- La imagen es un recurso drawable DEL SISTEMA: @android:drawable/ic_input_add -->
+    <ImageButton
+        android:id="@+id/btnAgregar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        android:scaleType="fitCenter"
+        android:contentDescription="Agregar jugador"/>
+
+</FrameLayout>

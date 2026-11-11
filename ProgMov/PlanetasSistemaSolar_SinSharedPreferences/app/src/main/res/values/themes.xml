@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme: CON barra de título (necesaria para el menú) -->
+    <style name="Base.Theme.PlanetasSistemaSolar" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PlanetasSistemaSolar" parent="Base.Theme.PlanetasSistemaSolar" />
+
+    <!-- Tema del Splash: SIN barra de título, imagen a pantalla completa -->
+    <style name="Theme.PlanetasSistemaSolar.Splash" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Provisional: sustituir por la imagen que entrega el profesor (mismo nombre) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="60dp" android:height="40dp" android:viewportWidth="60" android:viewportHeight="40">
+    <path android:fillColor="#FF002395" android:pathData="M0,0h20v40h-20z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M20,0h20v40h-20z"/>
+    <path android:fillColor="#FFED2939" android:pathData="M40,0h20v40h-20z"/>
+    <path android:strokeColor="#FF999999" android:strokeWidth="0.6" android:fillColor="#00000000" android:pathData="M0.3,0.3h59.4v39.4h-59.4z"/>
+</vector>

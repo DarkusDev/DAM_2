@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Provisional (dragón simplificado): sustituir por la imagen del profesor (mismo nombre) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="60dp" android:height="40dp" android:viewportWidth="60" android:viewportHeight="40">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M0,0h60v20h-60z"/>
+    <path android:fillColor="#FF00B140" android:pathData="M0,20h60v20h-60z"/>
+    <path android:fillColor="#FFD30731" android:pathData="M17,23 Q29,15 41,22 Q30,29 17,23z M40,22 L46,12 L51,13 L48,16 L44,23z M24,20 L21,7 L27,12 L31,6 L34,13 L37,19z M17,23 Q9,25 11,32 Q13,27 18,26z M22,25h2.5v7h-2.5z M33,25h2.5v7h-2.5z"/>
+    <path android:strokeColor="#FF999999" android:strokeWidth="0.6" android:fillColor="#00000000" android:pathData="M0.3,0.3h59.4v39.4h-59.4z"/>
+</vector>

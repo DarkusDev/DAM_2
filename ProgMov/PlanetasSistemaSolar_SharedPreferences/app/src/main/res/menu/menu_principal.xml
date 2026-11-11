@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menú principal: dos opciones excluyentes (checkableBehavior="single" = tipo radio) -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemAscendente"
+            android:title="Ordenación Ascendente"/>
+        <item
+            android:id="@+id/itemDescendente"
+            android:title="Ordenación Descendente"/>
+    </group>
+</menu>

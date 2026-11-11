@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Imagen de fondo + título + TableLayout con los 3 botones -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/planetas_fondo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sistema Solar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <!-- stretchColumns="*": las 3 columnas se reparten el ancho por igual.
+         layout_column indica en qué columna va cada botón. -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:padding="16dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnProximidad"
+                android:layout_column="1"
+                android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/boton_gris"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+                android:text="Planetas por proximidad al Sol"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="40dp">
+            <Button
+                android:id="@+id/btnTamano"
+                android:layout_column="0"
+                android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/boton_gris"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+                android:text="Planetas por tamaño"/>
+
+            <Button
+                android:id="@+id/btnAlfabetico"
+                android:layout_column="2"
+                android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/boton_gris"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+                android:text="Planetas por orden alfabético"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

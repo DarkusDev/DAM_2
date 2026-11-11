@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Imagen genérica (balón de rugby) que se ve antes de elegir nacionalidad.
+     Provisional: sustituir por la del profesor (mismo nombre) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="60dp" android:height="40dp" android:viewportWidth="60" android:viewportHeight="40">
+    <path android:fillColor="#FF1B2A4A" android:pathData="M0,0h60v40h-60z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M14,20 C14,10 46,10 46,20 C46,30 14,30 14,20z"/>
+    <path android:strokeColor="#FF1B2A4A" android:strokeWidth="1.2" android:pathData="M21,20h18 M25,17.5v5 M30,17.5v5 M35,17.5v5"/>
+</vector>

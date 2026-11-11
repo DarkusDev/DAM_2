@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Provisional (trébol): sustituir por la imagen del profesor (mismo nombre) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="60dp" android:height="40dp" android:viewportWidth="60" android:viewportHeight="40">
+    <path android:fillColor="#FF169B62" android:pathData="M0,0h60v40h-60z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M25,13a5,5 0 1,0 10,0a5,5 0 1,0 -10,0z M19.5,21a5,5 0 1,0 10,0a5,5 0 1,0 -10,0z M30.5,21a5,5 0 1,0 10,0a5,5 0 1,0 -10,0z M29,22h2v12h-2z"/>
+</vector>
