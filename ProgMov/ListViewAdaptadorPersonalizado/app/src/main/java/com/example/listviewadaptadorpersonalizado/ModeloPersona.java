@@ -1,22 +1,26 @@
 package com.example.listviewadaptadorpersonalizado;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ModeloPersona {
+    private Map<String, Double> notas = new HashMap<>();
     private String nombre;
-    private String descripcion;
-    private int codigo;
+    private String DNI;
+    private double notaMedia;
     private int foto;
 
 
     public ModeloPersona(){
+        this.notas = null;
         this.nombre = "";
-        this.codigo = 0;
-        this.descripcion = "";
+        this.DNI = "";
         this.foto = 0;
     }
-    public ModeloPersona(String nombre, String descripcion, int codigo, int foto) {
+    public ModeloPersona(String nombre, String descripcion, int foto, Map<String,Double> notas) {
+        this.notas = notas;
         this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.codigo = codigo;
+        this.DNI = descripcion;
         this.foto = foto;
     }
 
@@ -28,20 +32,25 @@ public class ModeloPersona {
         this.nombre = nombre;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getDNI() {
+        return DNI;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public void setDNI(String DNI) {
+        this.DNI = DNI;
     }
 
-    public int getCodigo() {
-        return codigo;
+    public double getNotaMedia() {
+        Double notaMates = notas.get("Matemáticas");
+        Double notaProg = notas.get("Programación");
+        Double notaBD = notas.get("Bases de Datos");
+
+        notaMedia = (notaMates + notaProg + notaBD) / 3;
+        return notaMedia;
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+    public void setNotaMedia(int notaMedia) {
+        this.notaMedia = notaMedia;
     }
 
     public int getFoto() {
@@ -54,6 +63,6 @@ public class ModeloPersona {
 
     @Override
     public String toString(){
-        return nombre + " - " + descripcion;
+        return nombre + " - " + DNI;
     }
 }

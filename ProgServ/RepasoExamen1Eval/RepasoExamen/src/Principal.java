@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Principal {
 
     public static void main(String[] args) {
+    	System.out.println(new File(".").getAbsolutePath());
         Scanner sc = new Scanner(System.in);
         int numEncuestados = 0;
         try {
@@ -24,10 +25,12 @@ public class Principal {
         Process[] procesos = new Process[numEncuestados];
         ArrayList<Hilo> hilos = new ArrayList<>();
         Monitor miMonitor = new Monitor();
+
+        
         try {
             for (int i = 0; i < procesos.length; i++) {
 
-                pBuilder = new ProcessBuilder("java", "Ecuestado");
+                pBuilder = new ProcessBuilder("/usr/java/jdk-24.0.2/bin/java", "Ecuestado");
                 pBuilder.directory(new File("./bin"));
                 procesos[i] = pBuilder.start();
 
