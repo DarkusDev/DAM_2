@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/item1"
-        android:title="Ir a Idealista"/>
-    <item
-        android:id="@+id/item2"
-        android:title="Ir a google"/>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="FotoCasa"
+        android:id="@+id/item1">
+
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:title="Casas"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Idealista"
+        android:id="@+id/item2"/>
+
+    <item android:title="Rotar"
+        android:id="@+id/rotar"/>
+
+    <item android:title="Restaurar"
+        android:id="@+id/restaurar"/>
+
+    <item android:title="Personalizado"
+        android:id="@+id/personalizado"/>
+
+
+
+
 </menu>

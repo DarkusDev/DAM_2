@@ -24,4 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "MenuAplicacion"
 include(":app")
+include(":app")
  
