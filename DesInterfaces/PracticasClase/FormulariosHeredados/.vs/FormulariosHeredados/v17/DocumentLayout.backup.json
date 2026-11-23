@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultatree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultatree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultatree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|solutionrelative:formconsultalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60ED6321-B0B3-4EB6-9406-AD039D8BEEC4}|FormulariosHeredados.csproj|c:\\users\\alumno\\desktop\\dam_2\\desinterfaces\\practicasclase\\formulariosheredados\\formalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,24 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\Cliente.cs",
-              "RelativeDocumentMoniker": "Cliente.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\Cliente.cs",
-              "RelativeToolTip": "Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T11:38:22.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FormConsultaTree.cs",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaTree.cs",
               "RelativeDocumentMoniker": "FormConsultaTree.cs",
@@ -80,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormConsultaTree.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaTree.cs",
               "RelativeDocumentMoniker": "FormConsultaTree.cs",
@@ -92,13 +79,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FormConsultaList.cs",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs",
               "RelativeDocumentMoniker": "FormConsultaList.cs",
-              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs",
-              "RelativeToolTip": "FormConsultaList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs*",
+              "RelativeToolTip": "FormConsultaList.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-29T14:31:56.033Z",
               "EditorCaption": ""
@@ -131,6 +118,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormConsultaList.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs",
+              "RelativeDocumentMoniker": "FormConsultaList.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "FormConsultaList.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T14:31:53.187Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\Cliente.cs",
+              "RelativeDocumentMoniker": "Cliente.cs",
+              "ToolTip": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\Cliente.cs",
+              "RelativeToolTip": "Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T11:38:22.095Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "FormulariosHeredados.csproj",
               "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormulariosHeredados.csproj",
@@ -143,22 +154,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormConsultaList.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alumno\\Desktop\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs",
-              "RelativeDocumentMoniker": "FormConsultaList.cs",
-              "ToolTip": "C:\\Users\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\puiud\\Documents\\GitHub\\DAM_2\\DesInterfaces\\PracticasClase\\FormulariosHeredados\\FormConsultaList.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T14:31:53.187Z"
             },
             {
               "$type": "Document",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaMDI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff2ef39f140a164c28532564b5031abb5a0126ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d2952a3e83dfe1b0bd4557a19d37b906fba7fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaMDI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaMDI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -41,7 +41,8 @@ namespace ExploradorFicheros
                 {
                     TreeNode hijo = new TreeNode(Path.GetFileName(dir)); // solo el nombre
                     hijo.Tag = dir;                                      // ruta completa
-                    nodoActual.Nodes.Add(hijo);                          // dentro del nodo
+                    nodoActual.Nodes.Add(hijo);       
+                    // dentro del nodo
                 }
 
                 // Opcional: mostrar también los ficheros

@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             treeView1 = new TreeView();
+            imageList1 = new ImageList(components);
             listView1 = new ListView();
             Nombre = new ColumnHeader();
             FechaCreacion = new ColumnHeader();
@@ -37,19 +39,30 @@
             FechaAcceso = new ColumnHeader();
             toolStrip1 = new ToolStrip();
             toolStripSplitButton1 = new ToolStripSplitButton();
-            toolStripSplitButton2 = new ToolStripSplitButton();
             carpetaToolStripMenuItem = new ToolStripMenuItem();
             ficheroToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSplitButton2 = new ToolStripSplitButton();
             toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // treeView1
             // 
+            treeView1.ImageIndex = 0;
+            treeView1.ImageList = imageList1;
             treeView1.Location = new Point(31, 46);
             treeView1.Name = "treeView1";
+            treeView1.SelectedImageIndex = 0;
             treeView1.Size = new Size(307, 379);
             treeView1.TabIndex = 0;
             treeView1.AfterSelect += treeView1_AfterSelect;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "House-256.png");
+            imageList1.Images.SetKeyName(1, "User-Profile-256.png");
             // 
             // listView1
             // 
@@ -102,6 +115,18 @@
             toolStripSplitButton1.TextDirection = ToolStripTextDirection.Horizontal;
             toolStripSplitButton1.TextImageRelation = TextImageRelation.ImageAboveText;
             // 
+            // carpetaToolStripMenuItem
+            // 
+            carpetaToolStripMenuItem.Name = "carpetaToolStripMenuItem";
+            carpetaToolStripMenuItem.Size = new Size(115, 22);
+            carpetaToolStripMenuItem.Text = "Carpeta";
+            // 
+            // ficheroToolStripMenuItem
+            // 
+            ficheroToolStripMenuItem.Name = "ficheroToolStripMenuItem";
+            ficheroToolStripMenuItem.Size = new Size(115, 22);
+            ficheroToolStripMenuItem.Text = "Fichero";
+            // 
             // toolStripSplitButton2
             // 
             toolStripSplitButton2.Image = (Image)resources.GetObject("toolStripSplitButton2.Image");
@@ -110,18 +135,6 @@
             toolStripSplitButton2.Size = new Size(53, 35);
             toolStripSplitButton2.Text = "Vistas";
             toolStripSplitButton2.TextImageRelation = TextImageRelation.ImageAboveText;
-            // 
-            // carpetaToolStripMenuItem
-            // 
-            carpetaToolStripMenuItem.Name = "carpetaToolStripMenuItem";
-            carpetaToolStripMenuItem.Size = new Size(180, 22);
-            carpetaToolStripMenuItem.Text = "Carpeta";
-            // 
-            // ficheroToolStripMenuItem
-            // 
-            ficheroToolStripMenuItem.Name = "ficheroToolStripMenuItem";
-            ficheroToolStripMenuItem.Size = new Size(180, 22);
-            ficheroToolStripMenuItem.Text = "Fichero";
             // 
             // Form1
             // 
@@ -153,5 +166,6 @@
         private ToolStripSplitButton toolStripSplitButton2;
         private ToolStripMenuItem carpetaToolStripMenuItem;
         private ToolStripMenuItem ficheroToolStripMenuItem;
+        private ImageList imageList1;
     }
 }
