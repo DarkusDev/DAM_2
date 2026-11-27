@@ -1,0 +1,1 @@
+Copia aqui los drivers .jar: mysql-connector-java-8.0.25.jar, sqlite-jdbc-xxx.jar y ojdbc8.jar

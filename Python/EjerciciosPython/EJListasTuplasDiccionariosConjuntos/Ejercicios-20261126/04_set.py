@@ -243,7 +243,8 @@ print(s1)  # {1, 2, 5, 6}
 alumno1 = {"Matemáticas", "Lengua", "Historia"}
 alumno2 = {"Inglés", "Lengua", "Ciencias"}
 
-
+print(alumno1.union(alumno2))
+print(alumno1.intersection(alumno2))
 
 
 #Ejercicio 2 – Diferencia de conjuntos
@@ -252,6 +253,8 @@ alumno2 = {"Inglés", "Lengua", "Ciencias"}
 todos = {"Ana", "Luis", "Carlos", "Marta", "Sofía"}
 palomitas = {"Luis", "Sofía"}
 
+print(todos.difference(palomitas))
+
 
 
 
@@ -259,6 +262,8 @@ palomitas = {"Luis", "Sofía"}
 #Determina si todos los empleados del turno de tarde también trabajan en el turno general.
 turno_general = {"Juan", "Lucía", "Pedro", "María", "Andrés"}
 turno_tarde = {"Pedro", "Lucía"}
+
+print(turno_tarde.issubset(turno_general))
 
 
 
@@ -269,6 +274,8 @@ turno_tarde = {"Pedro", "Lucía"}
 juan = {"Avatar", "Titanic", "Matrix"}
 maria = {"Matrix", "Inception", "Avatar 2"}
 
+print(juan.symmetric_difference(maria))
+
 
 
 
@@ -278,4 +285,5 @@ maria = {"Matrix", "Inception", "Avatar 2"}
 pendientes = {"comprar pan", "hacer la cama", "leer", "pagar factura"}
 hechas = {"hacer la cama", "leer"}
 
-
+pendientes.symmetric_difference_update(hechas)
+print(pendientes)

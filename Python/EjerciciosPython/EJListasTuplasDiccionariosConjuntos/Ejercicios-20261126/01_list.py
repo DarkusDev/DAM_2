@@ -126,3 +126,11 @@ lista = [10, 20, 30, 40, 50]
 # Ejercicio 6: Reversa parcial
 # Dada una lista, invierte solo la primera mitad de la lista (utilizando slicing y concatenación).
 # Ejemplo: lista = [1, 2, 3, 4, 5, 6] -> Resultado: [3, 2, 1, 4, 5, 6]
+
+lista = [1, 2, 3, 4, 5, 6]
+
+centro = len(lista) // 2
+
+listaNueva = lista[:centro][::-1] + lista[centro :]
+
+print(listaNueva)

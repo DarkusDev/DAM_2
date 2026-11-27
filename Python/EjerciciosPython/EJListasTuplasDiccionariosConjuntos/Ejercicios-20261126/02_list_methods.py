@@ -92,6 +92,10 @@ print('🐹' in animals) # -> False
 # Inserta el número 10 en la posición 2 usando insert().
 # Modifica el primer elemento de la lista para que sea 0.
 
+lista = [1, 2, 3, 4, 5]
+lista.append(6)
+print(lista)
+
 # Ejercicio 2: Combinar y limpiar listas
 # Crea dos listas:
 # lista_a = [1, 2, 3]
@@ -100,6 +104,15 @@ print('🐹' in animals) # -> False
 # Elimina la primera aparición del número 1 en lista_a usando remove().
 # Elimina el elemento en el índice 3 de lista_a usando pop(). Imprime el elemento eliminado.
 # Limpia completamente lista_b usando clear().
+
+lista_a = [1, 2, 3]
+lista_b = [4, 5, 6, 1, 2]
+
+lista_a_b = lista_a.extend(lista_b)
+print(lista_a_b)
+lista_a.remove(1)
+print(lista_a.pop(3))
+lista_b.clear()
 
 # Ejercicio 3: Slicing y eliminación con del
 # Crea una lista con los números del 1 al 10.
@@ -120,6 +133,9 @@ print('🐹' in animals) # -> False
 # Modifica el primer elemento de la lista referencia a 10.
 # Imprime las cuatro listas (original, copia_1, copia_2, referencia) y observa los cambios.
 
+original = [1, 2, 3]
+copia1 = original[:]
+print(copia1)
 # Ejercicio 6: Ordenar strings sin diferenciar mayúsculas y minúsculas.
 # Crea una lista con las siguientes cadenas: ["Manzana", "pera", "BANANA", "naranja"].
 # Ordena la lista sin diferenciar entre mayúsculas y minúsculas.
